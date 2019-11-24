@@ -339,6 +339,9 @@ var makeRandomPizza = function() {
   var numberOfMeats = Math.floor((Math.random() * 4));
   var numberOfNonMeats = Math.floor((Math.random() * 3));
   var numberOfCheeses = Math.floor((Math.random() * 2));
+  consoleю.log("numberOfMeats " +  numberOfMeats);
+  consoleю.log("numberOfNonMeats " +  numberOfNonMeats);
+  consoleю.log("numberOfCheeses " +  numberOfCheeses);
 
   for (var i = 0; i < numberOfMeats; i++) {
     pizza = pizza + ingredientItemizer(selectRandomMeat());
